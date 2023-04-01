@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="shortcut icon" href="./src/imagens/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/font.css" />    
+    <link rel="stylesheet" href="./src/css/animation.css" />
+    <link rel="stylesheet" href="./src/css/style.css">       
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <title>Escolha seu personagem - MapaDev Week</title>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <h1 class="title">Character Select</h1>            
+        </header>
+        <div class="character-selection">
+            <div class="big-character player-character-1">
+                <img src="./src/imagens/gon.png" alt="Personagem selecionado jogador 1" id="player-character-1">
+                <div class="name">
+                    <h2 id="player-name-1">Gon</h2>
+                </div>
+            </div>
+
+            <ul class="list-of-characters">
+                <li class="selected character" id="gon" data-name="Gon">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/avatar-gon.jpg" alt="Personagem gon">
+                </li>
+
+                <li class="character" id="killua" data-name="Killua">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/avatar-killua.jpg" alt="Personagem Killua">
+                </li>
+
+                <li class="character" id="hisoka" data-name="Hisoka">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/avatar-hisoka.jpg" alt="Personagem Hisoka">
+                </li>
+
+                <li class="character" id="vegetto" data-name="Vegetto">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/avatar-vegetto.jpg" alt="Personagem Vegetto">
+                </li>
+
+                <li class="character" id="kefla" data-name="Kefla">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/avatar-kefla.jpg" alt="Personagem Kefla">
+                </li>
+
+                <li class="character player-2-selected" id="buu" data-name="Buu">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/avatar-buu.jpg" alt="Personagem Buu">
+                </li>
+
+                <li class="character" id="meliodas" data-name="Meliodas">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/avatar-meliodas.jpg" alt="Personagem Meliodas">
+                </li>
+
+                <li class="character" id="ban" data-name="Ban">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/avatar-ban.jpg" alt="Personagem Ban">
+                </li>
+
+                <li class="character" id="zeldris" data-name="Zeldris">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/avatar-zeldris.jpg" alt="Personagem Zeldris">
+                </li>
+            </ul>
+
+            <div class="big-character player-character-2">
+                <img src="./src/imagens/buu.png" alt="Personagem selecionado jogador 2" id="player-character-2">
+                <div class="name">
+                    <h2>buu</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

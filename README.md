@@ -13,7 +13,6 @@ Projeto de que simula uma tela de seleção de personagens de um jogo de luta.
   - [Tecnologias-utilizadas](#tecnologias-utilizadas)
   - [Desenvolvimento](#desenvolvimento)
 - [Autor](#autor)
-- [Agradecimentos](#agradecimentos)
 
 ## Visão geral
 
